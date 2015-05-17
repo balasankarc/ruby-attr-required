@@ -1,0 +1,26 @@
+Description: Disable simplecov
+ Disable simplecov while running tests
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/spec/spec_helper.rb
++++ b/spec/spec_helper.rb
+@@ -1,8 +1,8 @@
+-require 'simplecov'
++#require 'simplecov'
+ 
+-SimpleCov.start do
+-  add_filter 'spec'
+-end
++#SimpleCov.start do
++  #add_filter 'spec'
++#end
+ 
+ require 'attr_required'
+ require 'attr_optional'
+@@ -34,4 +34,4 @@
+ class OnlyOptional
+   include AttrOptional
+   attr_optional :only_optional
+-end
+\ No newline at end of file
++end

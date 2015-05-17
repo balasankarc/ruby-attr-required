@@ -1,5 +1,5 @@
-ruby-attr-required (1.0.0-1) UNRELEASED; urgency=medium
+ruby-attr-required (1.0.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #785550)
 
- -- Balasankar C <balasankarc@autistici.org>  Sun, 17 May 2015 23:41:22 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 02 Feb 2015 20:53:16 +0530

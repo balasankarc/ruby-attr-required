@@ -15,7 +15,7 @@ Package: ruby-attr-required
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ruby | ruby-interpreter, ${misc:Depends}, ${shlibs:Depends}
-Description: Provide attr_required and attr_optional
+Description: attr_required and attr_optional support for Ruby
  REQUIRED and OPTIONAL are common terminology in RFCs, and used for protocol
  parameters. This gem helps RFC library developers to define which parameters
  (attributes in Ruby world) are REQUIRED and which are OPTIONAL.
